@@ -14,7 +14,8 @@ const config={
 			use:{
 				loader:'babel-loader',
 				options:{
-					presets:['env']
+					presets:['env'],
+					plugins:["transform-class-properties"]
 				}
 			}
 
@@ -22,3 +23,5 @@ const config={
 	},
 	devtool:'inline-source-map'
 }
+
+module.exports=config;

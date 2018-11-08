@@ -1,1 +1,1 @@
-  document.write('Hello World');
+class A{        a='s';   n=77;}console.log(44)
