@@ -1,1 +1,1 @@
-class A{        a='s';   n=77;}console.log(44)
+import {observable,isArrayLike} from 'mobx';const arr=observable(['a','b','c']);//console.log(arr,Array.isArray(arr),isArrayLike(arr))console.log(arr[0],arr[1])
